@@ -34,11 +34,11 @@
 
     <!-- Центральная часть с кнопками -->
     <div class="main-menu">
-      <button class="menu-button breeding">
+      <button class="menu-button breeding" id="breedButton">
         <img src="breeding.webp" alt="Breeding">
         <span>Скрещивание</span>
       </button>
-      <button class="menu-button incubator">
+      <button class="menu-button incubator" id="incubatorButton">
         <img src="2.webp" alt="Incubator">
         <span>Инкубатор</span>
       </button>
@@ -50,10 +50,40 @@
         <img src="shop.png" alt="Shop">
         <span>Магазин</span>
       </button>
-      <button class="menu-button quests">
-        <img src="quest.webp" alt="Quests">
-        <span>Квесты</span>
+      <button class="menu-button my-dragons" id="myDragonsButton">
+        <img src="dragon-icon.png" alt="My Dragons">
+        <span>Мои драконы</span>
       </button>
+    </div>
+
+    <!-- Меню "Мои драконы" -->
+    <div class="my-dragons-menu" id="myDragonsMenu" style="display: none;">
+      <h2>Мои драконы</h2>
+      <div class="dragons-list">
+        <div id="dragon1" class="dragon">
+          <img src="dragon1.png" alt="Dragon 1">
+          <span>Dragon 1</span>
+        </div>
+        <div id="dragon2" class="dragon">
+          <img src="dragon2.png" alt="Dragon 2">
+          <span>Dragon 2</span>
+        </div>
+        <div id="dragon3" class="dragon" style="display: none;">
+          <img src="dragon3.png" alt="Dragon 3">
+          <span>New Dragon</span>
+        </div>
+      </div>
+      <button class="back-button" id="backToMainButton">Назад</button>
+    </div>
+
+    <!-- Меню "Инкубатор" -->
+    <div class="incubator-menu" id="incubatorMenu" style="display: none;">
+      <h2>Инкубатор</h2>
+      <div id="egg" class="egg" style="display: none;">
+        <img src="egg.png" alt="Egg" id="eggImage">
+        <span id="eggTimer">Яйцо (нажмите, чтобы инкубировать)</span>
+      </div>
+      <button class="back-button" id="backToMainFromIncubator">Назад</button>
     </div>
 
     <!-- Нижняя панель -->
