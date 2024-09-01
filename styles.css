@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('3.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .player-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .currency {
+    display: flex;
+    align-items: center;
+  }
+  
+  .currency > div {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  .currency img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .settings img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-button img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .menu-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Изображение будет обрезаться и занимать всё пространство кнопки */
+    border-radius: 10px;
+  }
+  
+  .bottom-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .social-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .social-button img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .social-button span {
+    font-size: 14px;
+  }
+  
